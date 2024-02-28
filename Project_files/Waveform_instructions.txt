@@ -1,0 +1,6 @@
+#run the code in iverilog
+iverilog -o lut3_tb.vvp lut3.v lut3_tb.v
+#create wavevorm file
+vvp lut3_tb.vvp
+#open waveform
+gtkwave

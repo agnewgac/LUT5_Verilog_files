@@ -1,0 +1,66 @@
+$date
+	Mon Nov 27 12:59:59 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module lut3_tb $end
+$var wire 1 ! outee $end
+$var reg 3 " inputs [2:0] $end
+$var reg 1 # load $end
+$var reg 8 $ lut_contents_init [7:0] $end
+$scope module my_lut3 $end
+$var wire 3 % in [2:0] $end
+$var wire 1 # load $end
+$var wire 8 & lut_contents_init [7:0] $end
+$var wire 1 ! out $end
+$var reg 8 ' lut_contents [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b11011100 '
+b11011100 &
+bx %
+b11011100 $
+1#
+bx "
+x!
+$end
+#10
+0!
+b0 "
+b0 %
+0#
+#20
+b1 "
+b1 %
+#30
+1!
+b10 "
+b10 %
+#40
+b11 "
+b11 %
+#50
+b100 "
+b100 %
+#60
+0!
+b101 "
+b101 %
+#70
+1!
+b110 "
+b110 %
+#80
+b111 "
+b111 %
+#90
